@@ -11,9 +11,9 @@ See the [LICENSE](LICENSE.md) file for license rights and limitations.
 
 Please check [CONTRIBUTING.md](meta/CONTRIBUTING.md).
 
-## Directory
+## Table of Contents
 
-- `scripts/`: scripts for building/running
+- [Search & Ranking](src/search-ranking/README.md)
 - `.env`: env file used in scripts
 - `Makefile`: GNU Make Makefile as quick command entrypoint
 
