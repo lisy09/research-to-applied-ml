@@ -15,10 +15,10 @@ docker-images: base dev
 
 .PHONY: base
 base:
-	$(SCRIPTS_DIR)/build_base.sh
+	$(SCRIPTS_DIR)/build_image.sh -p BASE
 .PHONY: dev
 dev:
-	$(SCRIPTS_DIR)/build_dev.sh
+	$(SCRIPTS_DIR)/build_image.sh -p DEV
 
 .PHONY: push
 push:
