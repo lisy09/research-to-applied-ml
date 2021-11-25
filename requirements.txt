@@ -1,3 +1,4 @@
+jupyter
 tensorflow==2.7.0
 tensorflow-ranking==0.5.0
 model-card-toolkit==1.1.0
