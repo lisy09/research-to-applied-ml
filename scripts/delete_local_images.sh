@@ -18,6 +18,8 @@ set -x
 
 IFS=',' read -a images <<< ${DELETE_IMAGE_LIST}
 for image in ${images[@]}; do
-    docker rmi -f \
-        $(docker images --format "{{.Repository}}:{{.Tag}} {{.ID}}" | grep -e "^${image}" | awk '{print $2}')
+    images_to_delete=$(docker images --format "{{.Repository}}:{{.Tag}} {{.ID}}" | grep -e "^${image}" | awk '{print $2}')
+    if [ ! -z "$images_to_delete" ]; then
+        docker rmi -f $images_to_delete
+    fi
 done

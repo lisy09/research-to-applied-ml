@@ -11,11 +11,14 @@ incremental-tasks: docker-images
 alway-run-tasks: 
 
 .PHONY: docker-images
-docker-images: base
+docker-images: base dev
 
 .PHONY: base
 base:
 	$(SCRIPTS_DIR)/build_base.sh
+.PHONY: dev
+dev:
+	$(SCRIPTS_DIR)/build_dev.sh
 
 .PHONY: push
 push:
