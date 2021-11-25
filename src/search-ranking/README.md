@@ -6,6 +6,8 @@
 
 - [Amazon Search: The Joy of Ranking Products](./amazon-2016-ranking/README.md) ([Blog](https://www.amazon.science/publications/amazon-search-the-joy-of-ranking-products), [Paper (SIGIR ’16)](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf), [Video](https://www.youtube.com/watch?v=NLrhmn-EZ88), [Code](https://github.com/dariasor/TreeExtra)) `Amazon`
 
+- [https://paperswithcode.com/paper/detext-a-deep-text-ranking-framework-with]
+
 ## TODO
 
 - [Why Do People Buy Seemingly Irrelevant Items in Voice Product Search?](https://www.amazon.science/publications/why-do-people-buy-irrelevant-items-in-voice-product-search) ([Paper](https://assets.amazon.science/f7/48/0562b2c14338a0b76ccf4f523fa5/why-do-people-buy-irrelevant-items-in-voice-product-search.pdf)) `Amazon`
